@@ -1,0 +1,84 @@
+
+* {
+    font-family: "Times New Roman", Times, serif;
+}
+.principal {
+    align-items:center;
+    align-self: center;
+    align-content: center;
+    text-align:center;
+    padding-left:100px;
+    padding-right:100px;
+    align-items: center;
+    background-color: lightgray;
+    background-size:contain;
+}
+.left, .right{
+    height:120vh;
+    width:100%
+}
+.left{ 
+    float: left;
+    width:50%;
+    display: static;
+    place-items: left;
+    justify-content: center;
+    text-align: center;
+}
+.right{
+    float:right;
+    width: 50%;
+    display: static;
+    place-items: right;
+    justify-content: center;
+    text-align: justify;
+}
+.left{
+    text-align: left;
+}
+
+h1{
+    color: black ;
+    font-weight: bold;
+}
+h2{
+    color: black ;
+    font-size:18px;
+    padding:0px;
+    margin-bottom:10px;
+}
+h3{
+    font-size:15px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+h4{
+    font-size:13.5px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+p{
+    font-size:13px;
+    margin: 15px;
+    padding-left: 5px;
+}
+a,b{
+    color: black;
+    font-size:13px;
+    margin: 15px;
+    padding-left: 5px;
+}
+#uno{
+    margin:0px;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left:0px
+}
+#formulario{
+    font-size:12px;;
+
+}
+#titform {
+    text-decoration-line: underline;
+}
